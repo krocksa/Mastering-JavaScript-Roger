@@ -1,3 +1,7 @@
-function getProperty(obj, key) {
-  // your code here
+let soccer = {
+  team: 'Real madrid'
 }
+function getProperty(obj, key) {
+  return obj[key]
+  }
+console.log(getProperty(soccer,'team'));

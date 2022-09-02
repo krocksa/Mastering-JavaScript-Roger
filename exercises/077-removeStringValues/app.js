@@ -5,6 +5,13 @@ let obj = {
 
 function removeStringValues(obj) {
     // your code here
+    // your code here
+    for (const prop in obj) {
+        if (typeof obj[prop] === 'string') {
+            delete obj[prop];
+        }
+    }
+    return obj
     
 }
 
